@@ -1,0 +1,49 @@
+:root {
+  --primary: #fadb2b;
+  /* Logo Yellow/Gold */
+  --primary-hover: #e5c61a;
+  --secondary: #2c5263;
+  /* Logo Truck Blue */
+  --accent: #1e293b;
+  /* Logo Dark Slate */
+  --bg-light: #ffffff;
+  --bg-subtle: #f8fafc;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --border-color: rgba(30, 41, 59, 0.1);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-main);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+}
+
+.accent-bg {
+  background-color: var(--primary);
+}
+
+.secondary-bg {
+  background-color: var(--secondary);
+}
+
+.accent-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}

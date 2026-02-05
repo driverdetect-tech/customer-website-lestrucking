@@ -1,0 +1,9 @@
+
+{
+  "name": "LES TRUCKING OF DOWNERS GROVE LLC",
+  "description": "Premium car hauling and freight solutions specializing in nationwide retail transport.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
