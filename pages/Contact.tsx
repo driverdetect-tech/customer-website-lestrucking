@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-bold text-[var(--accent)] text-lg">Call Support</h4>
-                <p className="text-[var(--text-muted)]">(224) 220-4050</p>
+                <p className="text-[var(--text-muted)]">(224) 526-5606</p>
               </div>
             </div>
 
